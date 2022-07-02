@@ -1,0 +1,1209 @@
+
+local CS4 = Instance.new("ScreenGui")
+local CNM = Instance.new("Frame")
+local ID = Instance.new("TextLabel")
+local Mini = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Mian = Instance.new("Frame")
+local A = Instance.new("TextButton")
+local B = Instance.new("TextButton")
+local C = Instance.new("TextButton")
+local D = Instance.new("TextButton")
+local E = Instance.new("TextButton")
+local F = Instance.new("TextButton")
+local DF = Instance.new("Frame")
+local D1 = Instance.new("TextButton")
+local D2 = Instance.new("TextButton")
+local D3 = Instance.new("TextButton")
+local D4 = Instance.new("TextButton")
+local D5 = Instance.new("TextButton")
+local D6 = Instance.new("TextButton")
+local D7 = Instance.new("TextButton")
+local D8 = Instance.new("TextButton")
+local D9 = Instance.new("TextButton")
+local D10 = Instance.new("TextButton")
+local D11 = Instance.new("TextButton")
+local D12 = Instance.new("TextButton")
+local BF = Instance.new("Frame")
+local BBox = Instance.new("TextBox")
+local B1 = Instance.new("TextButton")
+local B2 = Instance.new("TextButton")
+local B3 = Instance.new("TextButton")
+local BBox_2 = Instance.new("TextBox")
+local B2_2 = Instance.new("TextButton")
+local B1_2 = Instance.new("TextButton")
+local B3_2 = Instance.new("TextButton")
+local CF = Instance.new("Frame")
+local CBox = Instance.new("TextBox")
+local C1 = Instance.new("TextButton")
+local C2 = Instance.new("TextButton")
+local C3 = Instance.new("TextButton")
+local CBox_2 = Instance.new("TextBox")
+local C2_2 = Instance.new("TextButton")
+local C1_2 = Instance.new("TextButton")
+local C3_2 = Instance.new("TextButton")
+local AF = Instance.new("Frame")
+local A1 = Instance.new("TextButton")
+local A2 = Instance.new("TextButton")
+local A3 = Instance.new("TextButton")
+local A4 = Instance.new("TextButton")
+local A5 = Instance.new("TextButton")
+local A6 = Instance.new("TextButton")
+local A7 = Instance.new("TextButton")
+local A8 = Instance.new("TextButton")
+local A9 = Instance.new("TextButton")
+local A10 = Instance.new("TextButton")
+local A11 = Instance.new("TextButton")
+local A12 = Instance.new("TextButton")
+local EF = Instance.new("Frame")
+local E1 = Instance.new("TextButton")
+local E5 = Instance.new("TextButton")
+local E6 = Instance.new("TextButton")
+local E7 = Instance.new("TextButton")
+local E8 = Instance.new("TextButton")
+local E9 = Instance.new("TextButton")
+local E10 = Instance.new("TextButton")
+local E11 = Instance.new("TextButton")
+local E12 = Instance.new("TextButton")
+local E2 = Instance.new("TextButton")
+local E3 = Instance.new("TextButton")
+local E4 = Instance.new("TextButton")
+local FF = Instance.new("Frame")
+local F1 = Instance.new("TextButton")
+local F5 = Instance.new("TextButton")
+local F6 = Instance.new("TextButton")
+local F7 = Instance.new("TextButton")
+local F8 = Instance.new("TextButton")
+local F9 = Instance.new("TextButton")
+local F10 = Instance.new("TextButton")
+local F11 = Instance.new("TextButton")
+local F12 = Instance.new("TextButton")
+local F2 = Instance.new("TextButton")
+local F3 = Instance.new("TextButton")
+local F4 = Instance.new("TextButton")
+
+--Properties:
+
+CS4.Name = "CS4"
+CS4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+CNM.Name = "CNM"
+CNM.Parent = CS4
+CNM.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CNM.BorderSizePixel = 0
+CNM.Position = UDim2.new(0.0411124602, 0, 0.147727281, 0)
+CNM.Size = UDim2.new(0.355501771, 0, 0.0426136367, 0)
+
+ID.Name = "ID"
+ID.Parent = CNM
+ID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ID.BackgroundTransparency = 1.000
+ID.BorderSizePixel = 0
+ID.Size = UDim2.new(0.4693878, 0, 1, 0)
+ID.Font = Enum.Font.SourceSansSemibold
+ID.Text = "白 V0.9"
+ID.TextColor3 = Color3.fromRGB(255, 255, 255)
+ID.TextSize = 20.000
+
+Mini.Name = "Mini"
+Mini.Parent = CNM
+Mini.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mini.BackgroundTransparency = 1.000
+Mini.BorderSizePixel = 0
+Mini.Position = UDim2.new(0.897959292, 0, 0, 0)
+Mini.Size = UDim2.new(0.102040827, 0, 1.01568604, 0)
+Mini.Font = Enum.Font.SourceSans
+Mini.Text = "+"
+Mini.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mini.TextScaled = true
+Mini.TextSize = 14.000
+Mini.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = CNM
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.795918465, 0, 0, 0)
+Close.Size = UDim2.new(0.102040827, 0, 1.01568604, 0)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Mian.Name = "Mian"
+Mian.Parent = CNM
+Mian.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
+Mian.BorderSizePixel = 0
+Mian.Position = UDim2.new(0, 0, 0.995365381, 0)
+Mian.Size = UDim2.new(1, 0, 0.0203206372, 0)
+Mian.Visible = false
+
+A.Name = "A"
+A.Parent = Mian
+A.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+A.BorderSizePixel = 0
+A.Size = UDim2.new(0.224489793, 0, 0.156682029, 0)
+A.Font = Enum.Font.SourceSans
+A.Text = "主要功能"
+A.TextColor3 = Color3.fromRGB(0, 0, 0)
+A.TextSize = 14.000
+A.MouseButton1Down:Connect(function()
+		AF.Size=UDim2.new(0.776, 0,0, 0)
+		if AF.Visible==false then
+			AF.Visible=true
+			AF:TweenSize(UDim2.new(0.776, 0,1, 0),"Out","Sine",0.15)
+		else
+			AF.Visible=false
+			AF:TweenSize(UDim2.new(0.776, 0,0, 0),"Out","Sine",0.15)
+		end
+BF.Visible=false
+CF.Visible=false
+DF.Visible=false
+EF.Visible=false
+FF.Visible=false
+end)
+
+AF.Name = "AF"
+AF.Parent = Mian
+AF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AF.BorderSizePixel = 0
+AF.Position = UDim2.new(0.224489793, 0, 0, 0)
+AF.Size = UDim2.new(0.775510192, 0, 1, 0)
+AF.Visible = false
+
+
+A1.Name = "A1"
+A1.Parent = AF
+A1.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A1.BorderSizePixel = 0
+A1.Position = UDim2.new(0, 0, 0.0414746478, 0)
+A1.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A1.Font = Enum.Font.SourceSans
+A1.Text = "自动点击（关）"
+A1.TextColor3 = Color3.fromRGB(0, 0, 0)
+A1.TextSize = 14.000
+A1.MouseButton1Down:connect(function()
+    if A1.Text=="自动点击（关）"
+    then A1.Text="自动点击（开）"
+    else A1.Text="自动点击（关）"
+    end
+    
+    
+    
+    while wait() do 
+    if A1.Text=="自动点击（开）" then
+    
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"Activate_Punch"})
+    
+    end
+    end
+end)
+A2.Name = "A2"
+A2.Parent = AF
+A2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A2.BorderSizePixel = 0
+A2.Position = UDim2.new(0.337719291, 0, 0.0414746478, 0)
+A2.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A2.Font = Enum.Font.SourceSans
+A2.Text = "收集经验球（关）"
+A2.TextColor3 = Color3.fromRGB(0, 0, 0)
+A2.TextSize = 14.000
+A2.MouseButton1Down:connect(function()
+    if A2.Text=="收集经验球（关）"
+    then A2.Text="收集经验球（开）"
+    else A2.Text="收集经验球（关）"
+    end
+world = ""
+allow = true
+while wait(math.random(1,3)) do
+    
+    if A2.Text=="收集经验球（开）" then
+        if allow == true then
+            allow = false
+            function ClosestPart()
+                local dist = math.huge
+                local target = nil
+                for i,v in pairs(game:GetService("Workspace").Map.Stages.Boosts:GetDescendants()) do
+                    if v.ClassName == "TouchTransmitter" then
+                        local magnitude = (v.Parent.Position - game:GetService("Players").LocalPlayer.Character.Head.Position).magnitude
+                        if magnitude < dist then
+                            dist = magnitude
+                            target = v.Parent
+                        end
+                    end
+                end
+                return target
+            end
+            world = ClosestPart().Parent.Parent
+            function ClosestPart1()
+                local dist = math.huge
+                local target = nil
+                for i,v in pairs(game:GetService("Workspace").Map.Stages.Boosts:GetChildren()) do
+                    if tostring(v.Name) == tostring(world) then
+                        for i,v1 in pairs(v:GetChildren()) do
+                            for i,v2 in pairs(v1:GetChildren()) do
+                                for i,v3 in pairs(v2:GetChildren()) do
+                                    if v3.ClassName == "TouchTransmitter" then
+                                        if v3.Parent.Transparency ~= 1 then
+                                            local magnitude = (v3.Parent.Position - game:GetService("Players").LocalPlayer.Character.Head.Position).magnitude
+                                            if magnitude < dist then
+                                                dist = magnitude
+                                                target = v3.Parent
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+                return target
+            end
+        end
+        pcall(function()
+            ClosestPart1().CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,0,0)
+        end)
+    end
+end
+    end)
+
+A3.Name = "A3"
+A3.Parent = AF
+A3.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A3.BorderSizePixel = 0
+A3.Position = UDim2.new(0.679824531, 0, 0.0414746478, 0)
+A3.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A3.Font = Enum.Font.SourceSans
+A3.Text = "自动去下一个地图（关）"
+A3.TextColor3 = Color3.fromRGB(0, 0, 0)
+A3.TextSize = 14.000
+A3.MouseButton1Down:connect(function()
+    if A3.Text=="自动去下一个地图（关）"
+    then A3.Text="自动去下一个地图（开）"
+    else A3.Text="自动去下一个地图（关）"
+    end
+    while wait() do
+    
+        if A3.Text=="自动去下一个地图（开）" then
+            firesignal(game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui["Menu_Frame"]["MapTeleportation_Frame"]["NextMap_ImgBtn"].Activated)
+        end
+    end)
+
+A4.Name = "A4"
+A4.Parent = AF
+A4.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A4.BorderSizePixel = 0
+A4.Position = UDim2.new(0, 0, 0.239631295, 0)
+A4.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A4.Font = Enum.Font.SourceSans
+A4.Text = "自动升级宠物（关)"
+A4.TextColor3 = Color3.fromRGB(0, 0, 0)
+A4.TextSize = 14.000
+A4.MouseButton1Down:connect(function()
+    if A4.Text=="自动升级宠物（关）"
+    then A4.Text="自动升级宠物（开）"
+    else A4.Text="自动升级宠物（关）"
+    end
+    while wait() do
+    
+        if A4.Text=="自动升级宠物（开）" then
+            firesignal(game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui["Pet_Frame"]["UpgradePet_Btn"].Activated)
+        end
+    end)
+
+
+A5.Name = "A5"
+A5.Parent = AF
+A5.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A5.BorderSizePixel = 0
+A5.Position = UDim2.new(0.337719291, 0, 0.239631295, 0)
+A5.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A5.Font = Enum.Font.SourceSans
+A5.Text = "名字"
+A5.TextColor3 = Color3.fromRGB(0, 0, 0)
+A5.TextSize = 14.000
+
+A6.Name = "A6"
+A6.Parent = AF
+A6.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A6.BorderSizePixel = 0
+A6.Position = UDim2.new(0.679824591, 0, 0.239631295, 0)
+A6.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A6.Font = Enum.Font.SourceSans
+A6.Text = "名字"
+A6.TextColor3 = Color3.fromRGB(0, 0, 0)
+A6.TextSize = 14.000
+
+A7.Name = "A7"
+A7.Parent = AF
+A7.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A7.BorderSizePixel = 0
+A7.Position = UDim2.new(0, 0, 0.470046014, 0)
+A7.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A7.Font = Enum.Font.SourceSans
+A7.Text = "名字"
+A7.TextColor3 = Color3.fromRGB(0, 0, 0)
+A7.TextSize = 14.000
+
+A8.Name = "A8"
+A8.Parent = AF
+A8.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A8.BorderSizePixel = 0
+A8.Position = UDim2.new(0.337719291, 0, 0.470046014, 0)
+A8.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A8.Font = Enum.Font.SourceSans
+A8.Text = "名字"
+A8.TextColor3 = Color3.fromRGB(0, 0, 0)
+A8.TextSize = 14.000
+
+A9.Name = "A9"
+A9.Parent = AF
+A9.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A9.BorderSizePixel = 0
+A9.Position = UDim2.new(0.679824531, 0, 0.470046014, 0)
+A9.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A9.Font = Enum.Font.SourceSans
+A9.Text = "名字"
+A9.TextColor3 = Color3.fromRGB(0, 0, 0)
+A9.TextSize = 14.000
+
+A10.Name = "A10"
+A10.Parent = AF
+A10.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A10.BorderSizePixel = 0
+A10.Position = UDim2.new(0, 0, 0.668202639, 0)
+A10.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A10.Font = Enum.Font.SourceSans
+A10.Text = "名字"
+A10.TextColor3 = Color3.fromRGB(0, 0, 0)
+A10.TextSize = 14.000
+
+A11.Name = "A11"
+A11.Parent = AF
+A11.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A11.BorderSizePixel = 0
+A11.Position = UDim2.new(0.337719291, 0, 0.668202639, 0)
+A11.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A11.Font = Enum.Font.SourceSans
+A11.Text = "名字"
+A11.TextColor3 = Color3.fromRGB(0, 0, 0)
+A11.TextSize = 14.000
+
+A12.Name = "A12"
+A12.Parent = AF
+A12.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+A12.BorderSizePixel = 0
+A12.Position = UDim2.new(0.679824591, 0, 0.668202639, 0)
+A12.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+A12.Font = Enum.Font.SourceSans
+A12.Text = "名字"
+A12.TextColor3 = Color3.fromRGB(0, 0, 0)
+A12.TextSize = 14.000
+
+B.Name = "B"
+B.Parent = Mian
+B.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+B.BorderSizePixel = 0
+B.Position = UDim2.new(0, 0, 0.156682029, 0)
+B.Size = UDim2.new(0.224489793, 0, 0.156682029, 0)
+B.Font = Enum.Font.SourceSans
+B.Text = "文本框"
+B.TextColor3 = Color3.fromRGB(0, 0, 0)
+B.TextSize = 14.000
+B.MouseButton1Down:Connect(function()
+	BF.Position=UDim2.new(0.224, 0,0, 0)
+		BF.Size=UDim2.new(0.776,0,0,0)
+		if BF.Visible==false then
+			BF.Visible=true
+			BF:TweenSize(UDim2.new(0.776, 0,1, 0),"Out","Sine",0.15)
+		else
+			BF:TweenSize(UDim2.new(0.776, 0,0, 0),"Out","Sine",0.15)
+			BF.Visible=false
+		end
+AF.Visible=false
+CF.Visible=false
+DF.Visible=false
+EF.Visible=false
+FF.Visible=false
+end)
+BF.Name = "BF"
+BF.Parent = Mian
+BF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BF.BorderSizePixel = 0
+BF.Position = UDim2.new(0.224489689, 0, 3.73559068e-08, 0)
+BF.Size = UDim2.new(0.77551043, 0, 0.99999994, 0)
+BF.Visible = false
+
+BBox.Name = "BBox"
+BBox.Parent = BF
+BBox.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+BBox.BorderSizePixel = 0
+BBox.Position = UDim2.new(0.144736797, 0, 0.0489631332, 0)
+BBox.Size = UDim2.new(0.710526109, 0, 0.141993091, 0)
+BBox.Font = Enum.Font.SourceSans
+BBox.Text = ""
+BBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+BBox.TextSize = 14.000
+
+B1.Name = "B1"
+B1.Parent = BF
+B1.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+B1.BorderSizePixel = 0
+B1.Position = UDim2.new(0.0570175201, 0, 0.24971199, 0)
+B1.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+B1.Font = Enum.Font.SourceSans
+B1.Text = "名字"
+B1.TextColor3 = Color3.fromRGB(0, 0, 0)
+B1.TextSize = 14.000
+
+B2.Name = "B2"
+B2.Parent = BF
+B2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+B2.BorderSizePixel = 0
+B2.Position = UDim2.new(0.355263084, 0, 0.24971199, 0)
+B2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+B2.Font = Enum.Font.SourceSans
+B2.Text = "名字"
+B2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B2.TextSize = 14.000
+
+B3.Name = "B3"
+B3.Parent = BF
+B3.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+B3.BorderSizePixel = 0
+B3.Position = UDim2.new(0.671052456, 0, 0.24971199, 0)
+B3.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+B3.Font = Enum.Font.SourceSans
+B3.Text = "名字"
+B3.TextColor3 = Color3.fromRGB(0, 0, 0)
+B3.TextSize = 14.000
+
+
+BBox_2.Name = "BBox_2"
+BBox_2.Parent = BF
+BBox_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+BBox_2.BorderSizePixel = 0
+BBox_2.Position = UDim2.new(0.144736797, 0, 0.528801858, 0)
+BBox_2.Size = UDim2.new(0.710526109, 0, 0.141993091, 0)
+BBox_2.Font = Enum.Font.SourceSans
+BBox_2.Text = ""
+BBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+BBox_2.TextSize = 14.000
+
+B2_2.Name = "B2_2"
+B2_2.Parent = BF
+B2_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+B2_2.BorderSizePixel = 0
+B2_2.Position = UDim2.new(0.355263054, 0, 0.729550779, 0)
+B2_2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+B2_2.Font = Enum.Font.SourceSans
+B2_2.Text = "名字"
+B2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B2_2.TextSize = 14.000
+
+B1_2.Name = "B1_2"
+B1_2.Parent = BF
+B1_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+B1_2.BorderSizePixel = 0
+B1_2.Position = UDim2.new(0.0570175499, 0, 0.729550719, 0)
+B1_2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+B1_2.Font = Enum.Font.SourceSans
+B1_2.Text = "名字"
+B1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B1_2.TextSize = 14.000
+
+B3_2.Name = "B3_2"
+B3_2.Parent = BF
+B3_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+B3_2.BorderSizePixel = 0
+B3_2.Position = UDim2.new(0.671052456, 0, 0.729550719, 0)
+B3_2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+B3_2.Font = Enum.Font.SourceSans
+B3_2.Text = "AFFAE"
+B3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B3_2.TextSize = 14.000
+
+C.Name = "C"
+C.Parent = Mian
+C.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+C.BorderSizePixel = 0
+C.Position = UDim2.new(0, 0, 0.313364059, 0)
+C.Size = UDim2.new(0.224489793, 0, 0.156682029, 0)
+C.Font = Enum.Font.SourceSans
+C.Text = "文本框_2"
+C.TextColor3 = Color3.fromRGB(0, 0, 0)
+C.TextSize = 14.000
+C.MouseButton1Down:Connect(function()
+	CF.Position=UDim2.new(0.224, 0,0, 0)
+		CF.Size=UDim2.new(0.776,0,0,0)
+		if CF.Visible==false then
+			CF.Visible=true
+			CF:TweenSize(UDim2.new(0.776, 0,1, 0),"Out","Sine",0.15)
+		else
+			CF:TweenSize(UDim2.new(0.776, 0,0, 0),"Out","Sine",0.15)
+			CF.Visible=false
+		end
+AF.Visible=false
+BF.Visible=false
+DF.Visible=false
+EF.Visible=false
+FF.Visible=false
+end)
+
+CF.Name = "CF"
+CF.Parent = Mian
+CF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CF.BorderSizePixel = 0
+CF.Position = UDim2.new(0.224489748, 0, 3.73559068e-08, 0)
+CF.Size = UDim2.new(0.775510371, 0, 0.99999994, 0)
+CF.Visible = false
+
+CBox.Name = "CBox"
+CBox.Parent = CF
+CBox.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+CBox.BorderSizePixel = 0
+CBox.Position = UDim2.new(0.144736797, 0, 0.0489631332, 0)
+CBox.Size = UDim2.new(0.710526109, 0, 0.141993091, 0)
+CBox.Font = Enum.Font.SourceSans
+CBox.Text = "16"
+CBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+CBox.TextSize = 14.000
+
+C1.Name = "C1"
+C1.Parent = CF
+C1.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+C1.BorderSizePixel = 0
+C1.Position = UDim2.new(0.0570175201, 0, 0.24971199, 0)
+C1.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+C1.Font = Enum.Font.SourceSans
+C1.Text = "名字"
+C1.TextColor3 = Color3.fromRGB(0, 0, 0)
+C1.TextSize = 14.000
+
+C2.Name = "C2"
+C2.Parent = CF
+C2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+C2.BorderSizePixel = 0
+C2.Position = UDim2.new(0.355263084, 0, 0.24971199, 0)
+C2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+C2.Font = Enum.Font.SourceSans
+C2.Text = "名字"
+C2.TextColor3 = Color3.fromRGB(0, 0, 0)
+C2.TextSize = 14.000
+
+C3.Name = "C3"
+C3.Parent = CF
+C3.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+C3.BorderSizePixel = 0
+C3.Position = UDim2.new(0.671052456, 0, 0.24971199, 0)
+C3.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+C3.Font = Enum.Font.SourceSans
+C3.Text = "名字"
+C3.TextColor3 = Color3.fromRGB(0, 0, 0)
+C3.TextSize = 14.000
+
+
+CBox_2.Name = "CBox_2"
+CBox_2.Parent = CF
+CBox_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+CBox_2.BorderSizePixel = 0
+CBox_2.Position = UDim2.new(0.144736797, 0, 0.528801858, 0)
+CBox_2.Size = UDim2.new(0.710526109, 0, 0.141993091, 0)
+CBox_2.Font = Enum.Font.SourceSans
+CBox_2.Text = ""
+CBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+CBox_2.TextSize = 14.000
+
+C2_2.Name = "C2_2"
+C2_2.Parent = CF
+C2_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+C2_2.BorderSizePixel = 0
+C2_2.Position = UDim2.new(0.355263054, 0, 0.729550779, 0)
+C2_2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+C2_2.Font = Enum.Font.SourceSans
+C2_2.Text = "名字"
+C2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+C2_2.TextSize = 14.000
+
+C1_2.Name = "C1_2"
+C1_2.Parent = CF
+C1_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+C1_2.BorderSizePixel = 0
+C1_2.Position = UDim2.new(0.0570175499, 0, 0.729550719, 0)
+C1_2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+C1_2.Font = Enum.Font.SourceSans
+C1_2.Text = "名字"
+C1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+C1_2.TextSize = 14.000
+
+C3_2.Name = "C3_2"
+C3_2.Parent = CF
+C3_2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+C3_2.BorderSizePixel = 0
+C3_2.Position = UDim2.new(0.671052456, 0, 0.729550719, 0)
+C3_2.Size = UDim2.new(0.285087645, 0, 0.151785716, 0)
+C3_2.Font = Enum.Font.SourceSans
+C3_2.Text = "名字"
+C3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+C3_2.TextSize = 14.000
+
+D.Name = "D"
+D.Parent = Mian
+D.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+D.BorderSizePixel = 0
+D.Position = UDim2.new(0, 0, 0.470046103, 0)
+D.Size = UDim2.new(0.224489793, 0, 0.156682029, 0)
+D.Font = Enum.Font.SourceSans
+D.Text = "名字"
+D.TextColor3 = Color3.fromRGB(0, 0, 0)
+D.TextSize = 14.000
+D.MouseButton1Down:Connect(function()
+	DF.Size=UDim2.new(0.776, 0,0, 0)
+		if DF.Visible==false then
+			DF.Visible=true
+			DF:TweenSize(UDim2.new(0.776, 0,1, 0),"Out","Sine",0.15)
+		else
+			DF.Visible=false
+			DF:TweenSize(UDim2.new(0.776, 0,0, 0),"Out","Sine",0.15)
+		end
+AF.Visible=false
+BF.Visible=false
+CF.Visible=false
+EF.Visible=false
+FF.Visible=false
+end)
+DF.Name = "DF"
+DF.Parent = Mian
+DF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DF.BorderSizePixel = 0
+DF.Position = UDim2.new(0.224489793, 0, 0, 0)
+DF.Size = UDim2.new(0.775510192, 0, 1, 0)
+DF.Visible = false
+
+D1.Name = "D1"
+D1.Parent = DF
+D1.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D1.BorderSizePixel = 0
+D1.Position = UDim2.new(0, 0, 0.0414746478, 0)
+D1.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D1.Font = Enum.Font.SourceSans
+D1.Text = "名字"
+D1.TextColor3 = Color3.fromRGB(0, 0, 0)
+D1.TextSize = 14.000
+
+
+D2.Name = "D2"
+D2.Parent = DF
+D2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D2.BorderSizePixel = 0
+D2.Position = UDim2.new(0.337719291, 0, 0.0414746478, 0)
+D2.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D2.Font = Enum.Font.SourceSans
+D2.Text = "名字"
+D2.TextColor3 = Color3.fromRGB(0, 0, 0)
+D2.TextSize = 14.000
+
+D3.Name = "D3"
+D3.Parent = DF
+D3.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D3.BorderSizePixel = 0
+D3.Position = UDim2.new(0.679824531, 0, 0.0414746478, 0)
+D3.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D3.Font = Enum.Font.SourceSans
+D3.Text = "名字"
+D3.TextColor3 = Color3.fromRGB(0, 0, 0)
+D3.TextSize = 14.000
+
+D4.Name = "D4"
+D4.Parent = DF
+D4.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D4.BorderSizePixel = 0
+D4.Position = UDim2.new(0, 0, 0.239631295, 0)
+D4.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D4.Font = Enum.Font.SourceSans
+D4.Text = "名字"
+D4.TextColor3 = Color3.fromRGB(0, 0, 0)
+D4.TextSize = 14.000
+
+D5.Name = "D5"
+D5.Parent = DF
+D5.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D5.BorderSizePixel = 0
+D5.Position = UDim2.new(0.337719291, 0, 0.239631295, 0)
+D5.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D5.Font = Enum.Font.SourceSans
+D5.Text = "名字"
+D5.TextColor3 = Color3.fromRGB(0, 0, 0)
+D5.TextSize = 14.000
+
+D6.Name = "D6"
+D6.Parent = DF
+D6.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D6.BorderSizePixel = 0
+D6.Position = UDim2.new(0.679824591, 0, 0.239631295, 0)
+D6.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D6.Font = Enum.Font.SourceSans
+D6.Text = "名字"
+D6.TextColor3 = Color3.fromRGB(0, 0, 0)
+D6.TextSize = 14.000
+
+D7.Name = "D7"
+D7.Parent = DF
+D7.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D7.BorderSizePixel = 0
+D7.Position = UDim2.new(0, 0, 0.470046014, 0)
+D7.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D7.Font = Enum.Font.SourceSans
+D7.Text = "名字"
+D7.TextColor3 = Color3.fromRGB(0, 0, 0)
+D7.TextSize = 14.000
+
+D8.Name = "D8"
+D8.Parent = DF
+D8.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D8.BorderSizePixel = 0
+D8.Position = UDim2.new(0.337719291, 0, 0.470046014, 0)
+D8.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D8.Font = Enum.Font.SourceSans
+D8.Text = "名字"
+D8.TextColor3 = Color3.fromRGB(0, 0, 0)
+D8.TextSize = 14.000
+
+D9.Name = "D9"
+D9.Parent = DF
+D9.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D9.BorderSizePixel = 0
+D9.Position = UDim2.new(0.679824531, 0, 0.470046014, 0)
+D9.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D9.Font = Enum.Font.SourceSans
+D9.Text = "名字"
+D9.TextColor3 = Color3.fromRGB(0, 0, 0)
+D9.TextSize = 14.000
+
+D10.Name = "D10"
+D10.Parent = DF
+D10.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D10.BorderSizePixel = 0
+D10.Position = UDim2.new(0, 0, 0.668202639, 0)
+D10.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D10.Font = Enum.Font.SourceSans
+D10.Text = "谢谢"
+D10.TextColor3 = Color3.fromRGB(0, 0, 0)
+D10.TextSize = 14.000
+
+D11.Name = "D11"
+D11.Parent = DF
+D11.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D11.BorderSizePixel = 0
+D11.Position = UDim2.new(0.337719291, 0, 0.668202639, 0)
+D11.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D11.Font = Enum.Font.SourceSans
+D11.Text = "解决"
+D11.TextColor3 = Color3.fromRGB(0, 0, 0)
+D11.TextSize = 14.000
+
+D12.Name = "D12"
+D12.Parent = DF
+D12.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+D12.BorderSizePixel = 0
+D12.Position = UDim2.new(0.679824591, 0, 0.668202639, 0)
+D12.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+D12.Font = Enum.Font.SourceSans
+D12.Text = "电脑"
+D12.TextColor3 = Color3.fromRGB(0, 0, 0)
+D12.TextSize = 14.000
+
+E.Name = "E"
+E.Parent = Mian
+E.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+E.BorderSizePixel = 0
+E.Position = UDim2.new(0, 0, 0.626728117, 0)
+E.Size = UDim2.new(0.224489793, 0, 0.156682029, 0)
+E.Font = Enum.Font.SourceSans
+E.Text = "第五选项"
+E.TextColor3 = Color3.fromRGB(0, 0, 0)
+E.TextSize = 14.000
+E.MouseButton1Down:Connect(function()
+	EF.Size=UDim2.new(0.776, 0,0, 0)
+		if EF.Visible==false then
+			EF.Visible=true
+			EF:TweenSize(UDim2.new(0.776, 0,1, 0),"Out","Sine",0.15)
+		else
+			EF.Visible=false
+			EF:TweenSize(UDim2.new(0.776, 0,0, 0),"Out","Sine",0.15)
+		end
+AF.Visible=false
+BF.Visible=false
+CF.Visible=false
+DF.Visible=false
+FF.Visible=false
+end)
+
+EF.Name = "EF"
+EF.Parent = Mian
+EF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EF.BorderSizePixel = 0
+EF.Position = UDim2.new(0.224489793, 0, 0, 0)
+EF.Size = UDim2.new(0.775510192, 0, 1, 0)
+EF.Visible = false
+local itemCount = 0
+
+E1.Name = "E1"
+E1.Parent = EF
+E1.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E1.BorderSizePixel = 0
+E1.Position = UDim2.new(0, 0, 0.0414746478, 0)
+E1.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E1.Font = Enum.Font.SourceSans
+E1.Text = "你还"
+E1.TextColor3 = Color3.fromRGB(0, 0, 0)
+E1.TextSize = 14.000
+
+E5.Name = "E5"
+E5.Parent = EF
+E5.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E5.BorderSizePixel = 0
+E5.Position = UDim2.new(0.337719291, 0, 0.0414746478, 0)
+E5.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E5.Font = Enum.Font.SourceSans
+E5.Text = "嘿嘿"
+E5.TextColor3 = Color3.fromRGB(0, 0, 0)
+E5.TextSize = 14.000
+
+
+E6.Name = "E6"
+E6.Parent = EF
+E6.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E6.BorderSizePixel = 0
+E6.Position = UDim2.new(0.679824531, 0, 0.0414746478, 0)
+E6.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E6.Font = Enum.Font.SourceSans
+E6.Text = "哈哈"
+E6.TextColor3 = Color3.fromRGB(0, 0, 0)
+E6.TextSize = 14.000
+
+E7.Name = "E7"
+E7.Parent = EF
+E7.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E7.BorderSizePixel = 0
+E7.Position = UDim2.new(0, 0, 0.239631295, 0)
+E7.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E7.Font = Enum.Font.SourceSans
+E7.Text = ":)"
+E7.TextColor3 = Color3.fromRGB(0, 0, 0)
+E7.TextSize = 14.000
+
+E8.Name = "E8"
+E8.Parent = EF
+E8.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E8.BorderSizePixel = 0
+E8.Position = UDim2.new(0.337719291, 0, 0.239631295, 0)
+E8.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E8.Font = Enum.Font.SourceSans
+E8.Text = "祖拖"
+E8.TextColor3 = Color3.fromRGB(0, 0, 0)
+E8.TextSize = 14.000
+
+E9.Name = "E9"
+E9.Parent = EF
+E9.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E9.BorderSizePixel = 0
+E9.Position = UDim2.new(0.679824591, 0, 0.239631295, 0)
+E9.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E9.Font = Enum.Font.SourceSans
+E9.Text = "一)"
+E9.TextColor3 = Color3.fromRGB(0, 0, 0)
+E9.TextSize = 14.000
+E10.Name = "E10"
+E10.Parent = EF
+E10.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E10.BorderSizePixel = 0
+E10.Position = UDim2.new(0, 0, 0.470046014, 0)
+E10.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E10.Font = Enum.Font.SourceSans
+E10.Text = "出k"
+E10.TextColor3 = Color3.fromRGB(0, 0, 0)
+E10.TextSize = 14.000
+
+E11.Name = "E11"
+E11.Parent = EF
+E11.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E11.BorderSizePixel = 0
+E11.Position = UDim2.new(0.337719291, 0, 0.470046014, 0)
+E11.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E11.Font = Enum.Font.SourceSans
+E11.Text = "Flindjd"
+E11.TextColor3 = Color3.fromRGB(0, 0, 0)
+E11.TextSize = 14.000
+E12.Name = "E12"
+E12.Parent = EF
+E12.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E12.BorderSizePixel = 0
+E12.Position = UDim2.new(0.679824531, 0, 0.470046014, 0)
+E12.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E12.Font = Enum.Font.SourceSans
+E12.Text = "开"
+E12.TextColor3 = Color3.fromRGB(0, 0, 0)
+E12.TextSize = 14.000
+
+E2.Name = "E2"
+E2.Parent = EF
+E2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E2.BorderSizePixel = 0
+E2.Position = UDim2.new(0, 0, 0.668202639, 0)
+E2.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E2.Font = Enum.Font.SourceSans
+E2.Text = "反rens"
+E2.TextColor3 = Color3.fromRGB(0, 0, 0)
+E2.TextSize = 14.00
+
+E3.Name = "E3"
+E3.Parent = EF
+E3.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E3.BorderSizePixel = 0
+E3.Position = UDim2.new(0.337719291, 0, 0.668202639, 0)
+E3.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E3.Font = Enum.Font.SourceSans
+E3.Text = "出板"
+E3.TextColor3 = Color3.fromRGB(0, 0, 0)
+E3.TextSize = 14.000
+
+E4.Name = "E4"
+E4.Parent = EF
+E4.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+E4.BorderSizePixel = 0
+E4.Position = UDim2.new(0.679824591, 0, 0.668202639, 0)
+E4.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+E4.Font = Enum.Font.SourceSans
+E4.Text = "d"
+E4.TextColor3 = Color3.fromRGB(0, 0, 0)
+E4.TextSize = 14.000
+
+F.Name = "F"
+F.Parent = Mian
+F.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+F.BorderSizePixel = 0
+F.Position = UDim2.new(0, 0, 0.783410132, 0)
+F.Size = UDim2.new(0.224489793, 0, 0.216589868, 0)
+F.Font = Enum.Font.SourceSans
+F.Text = "第六选项"
+F.TextColor3 = Color3.fromRGB(0, 0, 0)
+F.TextSize = 14.000
+F.MouseButton1Down:Connect(function()
+		FF.Size=UDim2.new(0.776, 0,0, 0)
+		if FF.Visible==false then
+			FF.Visible=true
+			FF:TweenSize(UDim2.new(0.776, 0,1, 0),"Out","Sine",0.15)
+		else
+			FF.Visible=false
+			FF:TweenSize(UDim2.new(0.776, 0,0, 0),"Out","Sine",0.15)
+		end
+AF.Visible=false
+BF.Visible=false
+CF.Visible=false
+DF.Visible=false
+EF.Visible=false
+end)
+
+
+FF.Name = "FF"
+FF.Parent = Mian
+FF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FF.BorderSizePixel = 0
+FF.Position = UDim2.new(0.224489793, 0, 0, 0)
+FF.Size = UDim2.new(0.775510192, 0, 1, 0)
+FF.Visible = false
+
+F1.Name = "F1"
+F1.Parent = FF
+F1.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F1.BorderSizePixel = 0
+F1.Position = UDim2.new(0, 0, 0.0414746478, 0)
+F1.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F1.Font = Enum.Font.SourceSans
+F1.Text = "传j恩"
+F1.TextColor3 = Color3.fromRGB(0, 0, 0)
+F1.TextSize = 14.000
+
+F5.Name = "F5"
+F5.Parent = FF
+F5.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F5.BorderSizePixel = 0
+F5.Position = UDim2.new(0.337719291, 0, 0.0414746478, 0)
+F5.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F5.Font = Enum.Font.SourceSans
+F5.Text = "木板"
+F5.TextColor3 = Color3.fromRGB(0, 0, 0)
+F5.TextSize = 14.000
+
+F6.Name = "F6"
+F6.Parent = FF
+F6.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F6.BorderSizePixel = 0
+F6.Position = UDim2.new(0.679824531, 0, 0.0414746478, 0)
+F6.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F6.Font = Enum.Font.SourceSans
+F6.Text = "投头"
+F6.TextColor3 = Color3.fromRGB(0, 0, 0)
+F6.TextSize = 14.000
+
+F7.Name = "F7"
+F7.Parent = FF
+F7.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F7.BorderSizePixel = 0
+F7.Position = UDim2.new(0, 0, 0.239631295, 0)
+F7.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F7.Font = Enum.Font.SourceSans
+F7.Text = "e那就睡觉p"
+F7.TextColor3 = Color3.fromRGB(0, 0, 0)
+F7.TextSize = 14.000
+
+F8.Name = "F8"
+F8.Parent = FF
+F8.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F8.BorderSizePixel = 0
+F8.Position = UDim2.new(0.337719291, 0, 0.239631295, 0)
+F8.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F8.Font = Enum.Font.SourceSans
+F8.Text = "不就是眼球"
+F8.TextColor3 = Color3.fromRGB(0, 0, 0)
+F8.TextSize = 14.000
+
+F9.Name = "F9"
+F9.Parent = FF
+F9.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F9.BorderSizePixel = 0
+F9.Position = UDim2.new(0.679824591, 0, 0.239631295, 0)
+F9.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F9.Font = Enum.Font.SourceSans
+F9.Text = "复)"
+F9.TextColor3 = Color3.fromRGB(0, 0, 0)
+F9.TextSize = 14.000
+
+F10.Name = "F10"
+F10.Parent = FF
+F10.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F10.BorderSizePixel = 0
+F10.Position = UDim2.new(0, 0, 0.470046014, 0)
+F10.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F10.Font = Enum.Font.SourceSans
+F10.Text = "炒鸡天"
+F10.TextColor3 = Color3.fromRGB(0, 0, 0)
+F10.TextSize = 14.000
+
+F11.Name = "F11"
+F11.Parent = FF
+F11.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F11.BorderSizePixel = 0
+F11.Position = UDim2.new(0.337719291, 0, 0.470046014, 0)
+F11.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F11.Font = Enum.Font.SourceSans
+F11.Text = "托拽器"
+F11.TextColor3 = Color3.fromRGB(0, 0, 0)
+F11.TextSize = 14.000
+
+F12.Name = "F12"
+F12.Parent = FF
+F12.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F12.BorderSizePixel = 0
+F12.Position = UDim2.new(0.679824531, 0, 0.470046014, 0)
+F12.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F12.Font = Enum.Font.SourceSans
+F12.Text = "神器"
+F12.TextColor3 = Color3.fromRGB(0, 0, 0)
+F12.TextSize = 14.000
+
+F2.Name = "F2"
+F2.Parent = FF
+F2.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F2.BorderSizePixel = 0
+F2.Position = UDim2.new(0, 0, 0.668202639, 0)
+F2.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F2.Font = Enum.Font.SourceSans
+F2.Text = "我刚吃饭"
+F2.TextColor3 = Color3.fromRGB(0, 0, 0)
+F2.TextSize = 14.000
+
+F3.Name = "F3"
+F3.Parent = FF
+F3.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F3.BorderSizePixel = 0
+F3.Position = UDim2.new(0.337719291, 0, 0.668202639, 0)
+F3.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F3.Font = Enum.Font.SourceSans
+F3.Text = "吃的泡面"
+F3.TextColor3 = Color3.fromRGB(0, 0, 0)
+F3.TextSize = 14.000
+
+F4.Name = "F4"
+F4.Parent = FF
+F4.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
+F4.BorderSizePixel = 0
+F4.Position = UDim2.new(0.679824591, 0, 0.668202639, 0)
+F4.Size = UDim2.new(0.320175439, 0, 0.152073696, 0)
+F4.Font = Enum.Font.SourceSans
+F4.Text = "白象的"
+F4.TextColor3 = Color3.fromRGB(0, 0, 0)
+F4.TextSize = 14.000
+
+local function CGSLH_fake_script() -- F.LocalScript 
+	local script = Instance.new('LocalScript', F)
+
+	local F=script.Parent
+	local AF=F.Parent.FF
+	--{0.776, 0},{1, 0}
+	
+	AF.Visible=false
+	
+	F.MouseButton1Click:Connect(function()
+
+	end)
+end
+coroutine.wrap(CGSLH_fake_script)()
+local function VIEO_fake_script() -- CNM.ZHANG 
+	local script = Instance.new('LocalScript', CNM)
+
+	local CNM=script.Parent
+	local Mini=CNM.Mini
+	local Close=CNM.Close
+	local main=CNM.Mian
+	main.Visible=false
+	--չ���������{1, 0},{13.647, 0}
+	Close.MouseButton1Click:Connect(function()
+		CNM.Parent:Destroy()
+	end)
+	main.Size=UDim2.new(1, 0,0.02, 0)
+	CNM.Active=true
+	CNM.Draggable=true
+	Mini.MouseButton1Click:Connect(function()
+		if main.Visible==false then
+			main.Visible=true
+			main:TweenSize(UDim2.new(1, 0,13.647, 0),"Out","Sine",0.15)
+		else
+			main:TweenSize(UDim2.new(1, 0,0.02, 0),"Out","Sine",0.15)
+			main.Visible=false
+		end
+	end)
+end
+coroutine.wrap(VIEO_fake_script)()
+local function notify(title,text,time)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = title;
+		Text = text;
+		Icon = nil;
+		Duration = time
+	})
+end
+local function AntiAFK()
+    game:GetService('Players').LocalPlayer.Idled:Connect(function()
+        notify('反挂机', '反挂机已生效', 4)
+        game:GetService('VirtualUser'):Button2Down(Vector2.new(0, 0), game:GetService('Workspace').CurrentCamera.CFrame);
+        wait(.325)
+        game:GetService('VirtualUser'):Button2Up(Vector2.new(0, 0), game:GetService('Workspace').CurrentCamera.CFrame);
+    end);
+end;
+AntiAFK();
+notify('反挂机', '反挂机已开启', 4)
